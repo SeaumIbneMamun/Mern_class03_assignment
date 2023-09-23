@@ -190,3 +190,436 @@ footer {
   #myBtn:hover {
     background-color: #555;
   }  
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    section {
+        overflow: hidden;
+        display: block;
+        padding: 0px;
+        width: 100%;
+    }
+    .body {
+        width: 100%;
+    }
+    .container {
+        width:100%;
+        margin:auto;
+        text-align: center;
+        padding:0px 0px 5px ;
+        
+    }
+
+    .container nav ul {
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    
+    nav ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: right;
+    }
+    
+    nav ul li{display: inline;padding: 0px 5px 5px;}
+     
+    nav ul li a{
+        text-decoration:none;
+        color:#3b506c;
+        font-weight: 600;
+    }
+    
+    .logo img {
+        width: 121px;
+    } 
+    /* banner */
+    .banner {
+        padding: 13px;
+        margin: -108px;
+        margin-top: 95px;
+
+    }
+    .banner h1 {
+        color: #3b506c;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        text-size-adjust: ;
+        
+    }
+    .banner h1 span {
+        color: #0c66ff;
+    }
+    
+    .banner p {
+        font-size: 18px;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 220px;
+        margin: 0px 0px 93px 20px
+    }
+
+/* completed project */
+.projects {
+    width: 100%;
+}
+.project-left{
+    text-align: center;
+    padding: 13px;
+    margin: -108px;
+}
+.project-left h2 {
+    font-size: 35px;
+    margin-top: 205px;
+}
+.project-left p {
+    padding: 0px 113px;
+    margin: 37px 0px 31px 0px;
+}
+
+.project-right{
+    font-size: 25px;
+    color: #3b506c;
+}
+.project-right h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 94px;
+}
+/* blog section */
+.blog-parent {
+    display: block;
+    margin: 40px auto;
+    padding: 20px 0px;
+    width: 100%;
+}
+.blog {
+    margin: 25px 0px 0px 19px;
+    padding: 21px 0px 0 0px;
+    border-radius: 15px;
+    border: 2px;
+    width: 91%;
+}
+.blog-item {height: 397px;}
+.blog-item img {
+    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+}
+.blog-item p {
+    text-align: center;
+    width: 99%;
+}
+.blog-item h3 {width: auto;} 
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #80808029;
+    padding: 25px 0;
+}
+.row {
+    display: block;
+    justify-content: space-between;
+}
+  }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 601px) and (max-width:768px ) {
+
+    section {
+        overflow: hidden;
+        display: block;
+        padding: 0px;
+        width: 100%;
+    }
+    .body {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin:auto;
+        text-align: center;
+        padding:0px 0px 5px;
+    }
+
+    .container nav ul {
+        text-align: center;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    nav{
+        width: 100%;
+    }
+    
+    nav ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: right;
+    }
+    
+    nav ul li{display: inline;padding: 0px 5px 5px;}
+     
+    nav ul li a{
+        text-decoration:none;
+        color:#3b506c;
+        font-weight: 600;
+    }
+    
+    .logo img {
+        width: 121px;
+    } 
+    /* banner */
+    .banner {
+        padding: 13px;
+        margin: -108px;
+        margin-top: 95px;
+
+    }
+    .banner h1 {
+        color: #3b506c;
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+        text-size-adjust: ;
+        
+    }
+    .banner h1 span {
+        color: #0c66ff;
+    }
+    
+    .banner p {
+        font-size: 18px;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 220px;
+        margin: 0px 0px 93px 20px
+    }
+
+/* completed project */
+.projects {
+    width: 50%;
+}
+/* .project-left{
+    text-align: center;
+    padding: 13px;
+    margin: -108px;
+} */
+.project-left h2 {
+    font-size: 35px;
+    margin-top: 93px;
+}
+.project-left p {
+    padding: 0px 0px;
+    margin: 18px 0px 35px 50px;
+}
+
+.project-right{
+    font-size: 25px;
+    color: #3b506c;
+}
+.project-right h2 {
+    text-align: left;
+    font-size: 26px;
+    padding: 138px;
+    margin: -44px 52px 34px -144px;
+}
+/* blog section */
+.blog-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px auto;
+    padding: 20px 0px;
+    width: 100%;
+}
+.blog {
+    margin: 25px 0px 0px 19px;
+    padding: 21px 0px 0 0px;
+    border-radius: 15px;
+    border: 2px;
+    width: 91%;
+}
+.blog-item {height: 397px;}
+.blog-item img {
+    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+}
+.blog-item p {
+    text-align: center;
+    width: 100%;
+}
+.blog-item h3 {width: auto;} 
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #80808029;
+    padding: 25px 0;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 769px) and (max-width:992px) {
+
+    section {
+        overflow: hidden;
+        display: block;
+        padding: 0px;
+        width: 100%;
+    }
+    .body {
+        width: 100%;
+    }
+    .container {
+        width:95%;
+        margin:auto;
+        /* padding: initial; */
+    }
+    .logo {
+        width: 50%;
+        float: left;
+    }
+    
+    nav{
+        width: 50%;
+        float: right;
+    }
+    
+    nav ul{
+        margin: 0px;
+        padding: 8px;
+        list-style: none;
+        text-align: right;
+    }
+    
+    nav ul li{display: inline;padding: 0px 15px 0px;}
+    
+    nav ul li a{
+        text-decoration:none;
+        color:#3b506c;
+        font-weight: 600;
+    }
+    .logo img {
+        width: 121px;
+    } 
+    /* banner */
+    .banner {
+        padding: 13px;
+        margin: -108px;
+        margin-top: 95px;
+
+    }
+    .banner h1 {
+        color: #3b506c;
+        text-align: center;
+        font-size: 50px;
+        width: 100%;
+        text-size-adjust: ;
+        
+    }
+    .banner h1 span {
+        color: #0c66ff;
+    }
+    
+    .banner p {
+        font-size: 18px;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 615px;
+        margin: 0px 0px 93px 20px
+    }
+
+/* completed project */
+.projects {
+    width: 50%;
+}
+/* .project-left{
+    text-align: center;
+    padding: 13px;
+    margin: -108px;
+} */
+.project-left h2 {
+    font-size: 35px;
+    margin-top: 93px;
+}
+.project-left p {
+    padding: 0px 0px;
+    margin: 18px 0px 35px 50px;
+}
+
+.project-right{
+    font-size: 25px;
+    color: #3b506c;
+}
+.project-right h2 {
+    text-align: left;
+    font-size: 26px;
+    padding: 138px;
+    margin: -44px 52px 34px -144px;
+}
+/* blog section */
+.blog-parent {
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    padding: 56px 25px;
+    width: 95%;
+}
+.blog {
+    margin: 25px 0px 0px 19px;
+    padding: 21px 0px 0 0px;
+    border-radius: 15px;
+    border: 2px;
+    width: 91%;
+}
+.blog-item {height: 452px;}
+.blog-item img {
+    width: 100%;
+    height: 220px;
+    padding-top: 20px;
+}
+.blog-item p {
+    text-align: center;
+    width: 100%;
+}
+.blog-item h3 {width: auto;text-align: center;} 
+
+/* footer */
+footer {
+    width: 100%;
+    background-color: #80808029;
+    padding: 25px 0;
+}
+.row {
+    display: -moz-grid-group;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+}
+
